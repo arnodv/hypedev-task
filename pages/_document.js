@@ -9,7 +9,7 @@ import Document, {
     }
   
     render() {
-      const GA_MEASUREMENT_ID = 'G-SDQ8GL06V9'; // Paste your GTAG here
+      const GA_MEASUREMENT_ID = 'G-ZSPPM4DHK5'; // Paste your GTAG here
       return (
         <Html lang="en">
           <Head>
