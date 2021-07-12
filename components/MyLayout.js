@@ -1,8 +1,5 @@
 import Head from 'next/head'
 import Header from './Header'
-import Document, {
-	Html, Head, Main, NextScript,
-} from 'next/document';
 
 const layoutStyle = {
     margin: 20,
