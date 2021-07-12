@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Header from './Header'
+import Document, {
+	Html, Head, Main, NextScript,
+} from 'next/document';
 
 const layoutStyle = {
     margin: 20,
@@ -13,6 +16,15 @@ Have a look at ./pages/index.js to see where we pass props through to this Layou
 const Layout = (props) => (
    <div>
 	<Head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H34W95RX0N"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments)}
+  			gtag('js', new Date());
+
+  			gtag('config', 'G-H34W95RX0N');
+		</script>
+
 	   <link
   			rel="stylesheet"
   			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
