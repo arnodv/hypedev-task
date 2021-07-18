@@ -1,6 +1,8 @@
 import Document, {
     Html, Head, Main, NextScript,
   } from 'next/document';
+import {GA_MEASUREMENT_ID} from '../lib/gtag';
+
   
   class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -9,7 +11,6 @@ import Document, {
     }
   
     render() {
-      const GA_MEASUREMENT_ID = 'G-ZSPPM4DHK5'; // Paste your GTAG here
       return (
         <Html lang="en">
           <Head>
